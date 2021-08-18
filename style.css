@@ -33,9 +33,25 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 span {
     content: "\00A9";
     size: 25px;
     color: white;
+}
+@media only screen and (max-width: 480px) {
+    footer {
+      background-color: #01d0f9;
+    }
+}
+@media only screen and (min-width: 490px) and (max-width: 768px)  {
+        footer {
+          background-color: #b5838d;
+    }
+}
+@media only screen and (min-width: 770px) and (max-width: 1024px)  {
+    footer {
+      background-color: #e29578;
+}
 }
